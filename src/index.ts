@@ -57,13 +57,13 @@ for (let head of ficha.data) {
                 })
 
                 //Y_CURRENT += (doc as any).lastAutoTable.finalY;
-                Y_CURRENT += 30;
+                Y_CURRENT = (doc as any).lastAutoTable.finalY + 10;
             }
 
         }
     }
 
-    Y_CURRENT += SPACE_BETWEEN_TITLES + 10
+    Y_CURRENT =  (doc as any).lastAutoTable.finalY + 10;
 }
 
 
