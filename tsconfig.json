@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
 
     /* Language and Environment */
     "target": "esnext",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */

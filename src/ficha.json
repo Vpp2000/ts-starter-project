@@ -1,0 +1,1666 @@
+{
+  "message": "Se actualizó el puntaje exitosamente",
+  "data": [
+    {
+      "heading": "a. Formación Academica y Profesional",
+      "score": 7,
+      "max_score": 25,
+      "subheads": [
+        {
+          "subhead": "1. Grados y Títulos",
+          "score": 7,
+          "max_score": 20,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 1,
+                  "title_item": "a) Grado de Doctor",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Doctorado",
+                      "width": "35%"
+                    },
+                    "Universidad": {
+                      "title": "Universidad",
+                      "width": "35%"
+                    },
+                    "País": {
+                      "title": "País",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha de obtención del grado",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      10
+                    ]
+                  }
+                },
+                {
+                  "id": 2,
+                  "title_item": "b) Grado de Maestro",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Maestría",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "País": {
+                      "title": "País",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha de obtención del grado",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 986,
+                      "formId": 2,
+                      "description": {
+                        "Fecha": "26/07/2010",
+                        "Grado": "Master en Tecnologías Informáticas Avanzadas ",
+                        "País": "España",
+                        "Institución": "Universidad Castilla - La Mancha"
+                      },
+                      "score": "4.00",
+                      "isUploaded": true,
+                      "fileId": 965
+                    }
+                  ],
+                  "score": {
+                    "max": 7,
+                    "min": 0,
+                    "type": "input-range"
+                  }
+                },
+                {
+                  "id": 3,
+                  "title_item": "c) Titulo Profesional",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Titulo Profesional",
+                      "width": "35%"
+                    },
+                    "Universidad": {
+                      "title": "Universidad",
+                      "width": "35%"
+                    },
+                    "País": {
+                      "title": "País",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha de obtención del título",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 988,
+                      "formId": 3,
+                      "description": {
+                        "Fecha": "21/03/2018",
+                        "Grado": "Ingeniero Informático",
+                        "País": "Perú",
+                        "Universidad": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 967
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subhead": "2. Otros Idiomas o Lenguas Nativas",
+          "score": 0,
+          "max_score": 5,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 4,
+                  "title_item": "a) Nivel Avanzado",
+                  "columns": {
+                    "Idioma": {
+                      "title": "Idioma",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "id": 5,
+                  "title_item": "b) Nivel Intermedio",
+                  "columns": {
+                    "Idioma": {
+                      "title": "Idioma",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1118,
+                      "formId": 5,
+                      "description": {
+                        "Fecha": "04/02/2008",
+                        "Idioma": "Inglés",
+                        "Institución": "Instituto Cultural Peruano Norteamericano ICPNA"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 1075
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 6,
+                  "title_item": "c) Nivel Básico",
+                  "columns": {
+                    "Idioma": {
+                      "title": "Idioma",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "b. Actividades Académicas e Investigación",
+      "score": 20.8,
+      "max_score": 30,
+      "subheads": [
+        {
+          "subhead": "1. Enseñanza Universitaria",
+          "score": 7.5,
+          "max_score": 10,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 7,
+                  "title_item": "a) Pregrado",
+                  "info": "(Solo se contara por cada periodo académico de 12 horas por semana, de los ultimos 5 años contados a partir de la convocatoria del concurso de admisión)",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha Inicio",
+                      "width": "15%"
+                    },
+                    "FechaFinal": {
+                      "title": "Fecha Final",
+                      "width": "15%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 990,
+                      "formId": 7,
+                      "description": {
+                        "FechaFinal": "22/08/2021",
+                        "Fecha_inicio": "01/04/2021",
+                        "Institución": "Universidad de Lima - Docente de Ingeniería de Sistemas"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 968
+                    },
+                    {
+                      "id": 993,
+                      "formId": 7,
+                      "description": {
+                        "FechaFinal": "03/03/2020",
+                        "Fecha_inicio": "01/04/2012",
+                        "Institución": "Universidad Nacional de Ingeniería - Docente de Ciencia de la Computación  - Facultad de Ciencias"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 970
+                    },
+                    {
+                      "id": 995,
+                      "formId": 7,
+                      "description": {
+                        "FechaFinal": "31/12/2009",
+                        "Fecha_inicio": "01/10/2009",
+                        "Institución": "Universidad Castilla- La Mancha - Docente"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 971
+                    },
+                    {
+                      "id": 1125,
+                      "formId": 7,
+                      "description": {
+                        "FechaFinal": "actualmente",
+                        "Fecha_inicio": "04/04/2022",
+                        "Institución": "Universidad Nacional de Ingeniería - Docente investigador"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 1082
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 8,
+                  "title_item": "b) Posgrado",
+                  "info": "(Solo se contara por cada periodo académico de 6 horas por semana, de los ultimos 5 años contados a partir de la convocatoria del concurso de admisión)",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha Inicio",
+                      "width": "15%"
+                    },
+                    "FechaFinal": {
+                      "title": "Fecha Final",
+                      "width": "15%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1002,
+                      "formId": 8,
+                      "description": {
+                        "FechaFinal": "06/12/2018",
+                        "Fecha_inicio": "18/10/2018",
+                        "Institución": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 977
+                    },
+                    {
+                      "id": 1003,
+                      "formId": 8,
+                      "description": {
+                        "FechaFinal": "18/03/2019",
+                        "Fecha_inicio": "28/01/2019",
+                        "Institución": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 978
+                    },
+                    {
+                      "id": 1004,
+                      "formId": 8,
+                      "description": {
+                        "FechaFinal": "16/07/2019",
+                        "Fecha_inicio": "28/04/2019",
+                        "Institución": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 979
+                    },
+                    {
+                      "id": 1005,
+                      "formId": 8,
+                      "description": {
+                        "FechaFinal": "26/09/2019",
+                        "Fecha_inicio": "01/08/2019",
+                        "Institución": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 980
+                    },
+                    {
+                      "id": 1006,
+                      "formId": 8,
+                      "description": {
+                        "FechaFinal": "02/12/2020",
+                        "Fecha_inicio": "14/10/2020",
+                        "Institución": "Universidad Peruana Cayetano Heredia"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 981
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1.5
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subhead": "2. Trabajos de Investigación",
+          "score": 9,
+          "max_score": 9,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 9,
+                  "title_item": "a. Trabajo de Investigación culminado",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1007,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "ESCALAMIENTO EN LA FABRICACIÓN DEL DISPOSITIVO MÉDICO DE CLASE III VENTILADOR MECÁNICO FÉNIX -Proyectos Especiales: Modalidad – Escalamiento de Proyectos COVID-19 ( Investigador Principal - Proyecto de investigación financiado por Concytec)"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 982
+                    },
+                    {
+                      "id": 1008,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "Instrumentos de diseño y mantenimiento de sistemas de flujo de transporte urbano utilizando computación de alto rendimiento y tecnologías bigdata ( Coordinador principal - Proyecto de investigación aplicada financiado por Fondecyt - Concytec)"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 983
+                    },
+                    {
+                      "id": 1009,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "plicaciones de Seguridad Ciudadana y Vial en una Smart City para seguimiento y geolocalización con prototipado en la Universidad Nacional de Ingeniería ( Co investigador  - Innóvate Perú)"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 984
+                    },
+                    {
+                      "id": 1096,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "Publicación indexada Artículo: \"An Analysis of Computational Resources of Event-Driven Streaming Data Flow for Internet of Things: A Case Study\" The Computer Journal, bxab143, ( https://doi.org/10.1093/comjnl/bxab143 )"
+                      },
+                      "score": "3.00",
+                      "isUploaded": false
+                    },
+                    {
+                      "id": 1107,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "Publicación indexada \"An experimental study of fog and cloud computing in CEP-based Real-Time IoT applications\" (\t10.1186/s13677-021-00245-7 )"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 1064
+                    },
+                    {
+                      "id": 1108,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "Publicación indexada \"Identification of risk zones for road safety through unsupervised learning algorithms\" ( 10.18687/LACCEI2018.1.1.413 )"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 1065
+                    },
+                    {
+                      "id": 1109,
+                      "formId": 9,
+                      "description": {
+                        "Descripcion": "Publicación indexada \"Performance tests on the CPU and GPU clusters using N-body simulation\" \t(10.18687/LACCEI2018.1.1.494 )"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 1066
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "id": 10,
+                  "title_item": "b. Patente o Innovación Tecnológica registrada",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1010,
+                      "formId": 10,
+                      "description": {
+                        "Descripcion": "MICROTREMORSOFT UNI (Patente de software registrado ante Indecopi)"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 985
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subhead": "3. Actualización y Capacitación",
+          "score": 0.3,
+          "max_score": 7,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 11,
+                  "title_item": "a) Otros Doctorados, no considerado en el rubro 1",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Doctorado",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      7
+                    ]
+                  }
+                },
+                {
+                  "id": 12,
+                  "title_item": "b) Otros Maestrías, no considerado en el rubro 1",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Maestría",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      5
+                    ]
+                  }
+                },
+                {
+                  "id": 13,
+                  "title_item": "c) Titulación de Segunda Especialidad Profesional",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Titulo de Segunda Especialidad ",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 14,
+                  "title_item": "d) Estudios de Doctorado",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Grado": {
+                      "title": "Doctorado",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 15,
+                  "title_item": "e) Estudios de Maestría",
+                  "info": "(Todos los títulos deben estar registrados en SUNEDU)",
+                  "columns": {
+                    "Estudio": {
+                      "title": "Maestria",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.75
+                    ]
+                  }
+                },
+                {
+                  "id": 16,
+                  "title_item": "f) Diplomados",
+                  "columns": {
+                    "Diploma": {
+                      "title": "Diplomatura",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 17,
+                  "title_item": "g) Segunda Especialización Profesional",
+                  "columns": {
+                    "Estudio": {
+                      "title": "Segunda Especialización",
+                      "width": "35%"
+                    },
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "35%"
+                    },
+                    "Semestre": {
+                      "title": "Semestres Concluidos",
+                      "width": "15%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 18,
+                  "title_item": "h) Asistencia a cursos o eventos académicos, en seminarios, simposios, congresos, ecuentros científicos",
+                  "columns": {
+                    "Estudio": {
+                      "title": "Evento",
+                      "width": "65%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha",
+                      "width": "10%"
+                    },
+                    "Horas": {
+                      "title": "Nro. Horas",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1013,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "25/09/2018",
+                        "Horas": "32",
+                        "Estudio": "Simposio de Ciberseguridad - Organización de Estados Americanos OEA (Washington, USA)"
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 987
+                    },
+                    {
+                      "id": 1056,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "09/08/2018",
+                        "Horas": "7",
+                        "Estudio": "Seminario Internacional Rumbo al Gobierno Digital Programa Nacional Capacity Building Program on E Goverment RENIEC (Lima, Perú)"
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 1022
+                    },
+                    {
+                      "id": 1060,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "27/04/2018",
+                        "Horas": "40",
+                        "Estudio": "Especialización en ICT Expert Course (Seúl, Rep. Corea del Sur)"
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 1025
+                    },
+                    {
+                      "id": 1073,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "24/04/2017",
+                        "Horas": "32",
+                        "Estudio": "Capacitación en Transformación Digital (Hangzhou, Rep. China)"
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 1036
+                    },
+                    {
+                      "id": 1091,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "12/10/2020",
+                        "Horas": "216",
+                        "Estudio": "CCNA MODULO I V7.0 INTRODUCCION A LAS REDES - Sistemas UNI"
+                      },
+                      "score": "0.00",
+                      "isUploaded": true,
+                      "fileId": 1054
+                    },
+                    {
+                      "id": 1110,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "27/05/2022",
+                        "Horas": "23",
+                        "Estudio": "Programación de capacitación en \"Investment Readiness\" - Universidad de Piura PAD HUBUDEP"
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 1067
+                    },
+                    {
+                      "id": 1112,
+                      "formId": 18,
+                      "description": {
+                        "Fecha": "01/12/2021",
+                        "Horas": "32",
+                        "Estudio": "Curso de \"Machine Learning con Python\" - UNI "
+                      },
+                      "score": "0.05",
+                      "isUploaded": true,
+                      "fileId": 1069
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.05
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subhead": "4. Elaboración de Material de Enseñanza Universitaria",
+          "score": 4,
+          "max_score": 4,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 19,
+                  "title_item": "a) Publicación de texto a nivel universitario",
+                  "columns": {
+                    "Nombre": {
+                      "title": "Nombre",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha de Publicacion",
+                      "width": "25%"
+                    },
+                    "Institución": {
+                      "title": "N° de Paginas",
+                      "width": "20%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1121,
+                      "formId": 19,
+                      "description": {
+                        "Fecha": "21/09/2021",
+                        "Nombre": "Publicación en revista científica universitaria: \"Evaluación, auditoría y desempeño de las políticas públicas de Lima como Smart City según el estándar ISO 3712:2014 \" (PUCP)",
+                        "Institución": "28"
+                      },
+                      "score": "3.00",
+                      "isUploaded": true,
+                      "fileId": 1078
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "id": 20,
+                  "title_item": "b) Publicación de libros de problemas resueltos",
+                  "columns": {
+                    "Nombre": {
+                      "title": "Nombre",
+                      "width": "45%"
+                    },
+                    "Fecha": {
+                      "title": "Fecha de Publicacion",
+                      "width": "25%"
+                    },
+                    "Institución": {
+                      "title": "N° de Paginas",
+                      "width": "20%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 21,
+                  "title_item": "c) Diseño y construcción de equipo de ensayo de laboratorio. Indicar fechas",
+                  "columns": {
+                    "Grado": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 22,
+                  "title_item": "d) Software de apoyo académico",
+                  "columns": {
+                    "Grado": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1113,
+                      "formId": 22,
+                      "description": {
+                        "Grado": "MICROTREMORSOFT UNI"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 1070
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 23,
+                  "title_item": "e) Separata (de al menos 20 págs., con su respectivo visto bueno)",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "c. Actividades Proyección Social y Experiencia Profesional",
+      "score": 12,
+      "max_score": 15,
+      "subheads": [
+        {
+          "subhead": "1. Proyección Social",
+          "score": 5,
+          "max_score": 5,
+          "headItems": [
+            {
+              "head_item": "a) Organización o participación en actividades académicas, científicas, culturales o deportivas, refrendadas por alguna institución de prestigio en la que ha intervertido",
+              "display": true,
+              "documentItems": [
+                {
+                  "id": 24,
+                  "title_item": "a.1. Organización de actividades de divulgación científica o técnica",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1070,
+                      "formId": 24,
+                      "description": {
+                        "Descripcion": "Ponente en el V Encuentro Internacional de Ciencia y Tecnología ECITEC 2020 - UNI"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1035
+                    },
+                    {
+                      "id": 1076,
+                      "formId": 24,
+                      "description": {
+                        "Descripcion": "Participación en IEE Conference en Cloud Computing - Latin Cloud 2012 (Porto Alegre, Brasil)"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1040
+                    },
+                    {
+                      "id": 1078,
+                      "formId": 24,
+                      "description": {
+                        "Descripcion": "Ponente en el III Congreso Macroregional de Ingeniería de Sistemas - COMAREIS 2017 (Andahuaylas, Perú)"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1042
+                    },
+                    {
+                      "id": 1123,
+                      "formId": 24,
+                      "description": {
+                        "Descripcion": "Expositor del foro \"La UNI hacia una Universidad Inteligente\" CEPS - UNI 2017"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1080
+                    },
+                    {
+                      "id": 1124,
+                      "formId": 24,
+                      "description": {
+                        "Descripcion": "Expositor en el XXIV Encuentro Científico Internacional de Verano ECI 2017"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1081
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1.5
+                    ]
+                  }
+                },
+                {
+                  "id": 25,
+                  "title_item": "a.2. Organización de cursos de capacitación extracurricular",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1085,
+                      "formId": 25,
+                      "description": {
+                        "Descripcion": "Organizador del evento académico \"Los nuevos retos de la PNP en la Seguridad y Tecnología\"  organizado UNI y PNP 2016"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 1047
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 26,
+                  "title_item": "a.3. Actividades de orientación vocacional, profesional, y tutoría",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1082,
+                      "formId": 26,
+                      "description": {
+                        "Descripcion": "Certificado por haber participado en la conformación de la Incubadora de Base Tecnológica - StartupUNI 2018"
+                      },
+                      "score": "0.50",
+                      "isUploaded": true,
+                      "fileId": 1046
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 27,
+                  "title_item": "a.4. Visitas técnicas",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1111,
+                      "formId": 27,
+                      "description": {
+                        "Descripcion": "Visita técnica a EUDE (España)"
+                      },
+                      "score": "0.50",
+                      "isUploaded": true,
+                      "fileId": 1068
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 28,
+                  "title_item": "a.5. Organización de programas de aniversario instituciónal",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1122,
+                      "formId": 28,
+                      "description": {
+                        "Descripcion": "Ponente en el XVIII Aniversario - Universidad Nacional Federico Villareal - 2015"
+                      },
+                      "score": "0.50",
+                      "isUploaded": true,
+                      "fileId": 1079
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 29,
+                  "title_item": "a.6. Organización de actividades culturales o deportivas",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "head_item": "b) Actividades de vinculación con el sector estatal o empresarial",
+              "display": true,
+              "documentItems": [
+                {
+                  "id": 30,
+                  "title_item": "b.1. Gestión de convenios y/o pasantías",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1079,
+                      "formId": 30,
+                      "description": {
+                        "Descripcion": "Consolidación de una línea de fabricación entre la Universidad Nacional de Ingeniería y la Empresa MODASA, para la producción de ventiladores mecánicos, los cuales ya cuentan con una autorización y homologación por parte de la DIGEMID. Acuerdo de confidencialidad entre las partes."
+                      },
+                      "score": "0.25",
+                      "isUploaded": true,
+                      "fileId": 1043
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.25
+                    ]
+                  }
+                },
+                {
+                  "id": 31,
+                  "title_item": "b.2. Gestión de practicas pre-profesionales",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.25
+                    ]
+                  }
+                },
+                {
+                  "id": 32,
+                  "title_item": "b.3. Gestión de bolsa de trabajo",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 33,
+                  "title_item": "b.4. Pasantías",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1086,
+                      "formId": 33,
+                      "description": {
+                        "Descripcion": "Pasantía al Instituto de Investigación de Albacete - Universidad Castilla La Mancha (España)"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 1049
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "head_item": "c) Organización o participación en ayuda comunitaria",
+              "display": true,
+              "documentItems": [
+                {
+                  "id": 34,
+                  "title_item": "c.1. Organización de brigadas de auxilio y ayuda comunitaria",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                {
+                  "id": 35,
+                  "title_item": "c.2. Participación de brigadas de auxilio y asistencia comunitaria",
+                  "columns": {
+                    "Descripcion": {
+                      "title": "Descripción",
+                      "width": "85%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subhead": "2. Experiencia Profesional",
+          "score": 7,
+          "max_score": 10,
+          "headItems": [
+            {
+              "head_item": "Item_null",
+              "display": false,
+              "documentItems": [
+                {
+                  "id": 36,
+                  "title_item": "a) Director de organismo público",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "40%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1063,
+                      "formId": 36,
+                      "description": {
+                        "Cargo": "Director del Centro de Tecnologías de la Información y Comunicación CTIC UNI",
+                        "Fecha_fin": "04/12/2020",
+                        "Fecha_inicio": "08/06/2015",
+                        "Institución": "Universidad Nacional de Ingeniería"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1028
+                    },
+                    {
+                      "id": 1065,
+                      "formId": 36,
+                      "description": {
+                        "Cargo": "Jefe de la Oficina de Tecnologías de la Información y Comunicación  OTIC MINEDU",
+                        "Fecha_fin": "08/09/2021",
+                        "Fecha_inicio": "03/12/2020",
+                        "Institución": "Ministerio de Educación del Perú MINEDU"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1029
+                    },
+                    {
+                      "id": 1068,
+                      "formId": 36,
+                      "description": {
+                        "Cargo": "Director de la Dirección Innovación en Tecnologías en Educación  DITE MINEDU",
+                        "Fecha_fin": "",
+                        "Fecha_inicio": "28/06/2022",
+                        "Institución": "Ministerio de Educación del  Perú MINEDU"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1030
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1.5
+                    ]
+                  }
+                },
+                {
+                  "id": 37,
+                  "title_item": "b) Gerente General en empresas públicas o privadas",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "40%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1069,
+                      "formId": 37,
+                      "description": {
+                        "Cargo": "Vicepresidente - Director ",
+                        "Fecha_fin": "13/05/2022",
+                        "Fecha_inicio": "29/01/2021",
+                        "Institución": "Centro Vacacional Huampaní"
+                      },
+                      "score": "1.50",
+                      "isUploaded": true,
+                      "fileId": 1032
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1.5
+                    ]
+                  }
+                },
+                {
+                  "id": 38,
+                  "title_item": "c) Responsable de actividades técnicas o administrativas",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 39,
+                  "title_item": "d) Jefe de Proyeto en sector público o privado",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1.5
+                    ]
+                  }
+                },
+                {
+                  "id": 40,
+                  "title_item": "e) Consultoría y asesoría en el sector público o privado",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [
+                    {
+                      "id": 1087,
+                      "formId": 40,
+                      "description": {
+                        "Cargo": "Evaluador externo",
+                        "Fecha_fin": "12/05/2020",
+                        "Fecha_inicio": "01/01/2020",
+                        "Institución": "Innóvate Perú"
+                      },
+                      "score": "1.00",
+                      "isUploaded": true,
+                      "fileId": 1050
+                    }
+                  ],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "id": 41,
+                  "title_item": "f) Servicio profesional dependientes o independientes",
+                  "columns": {
+                    "Institución": {
+                      "title": "Institución",
+                      "width": "50%"
+                    },
+                    "Cargo": {
+                      "title": "Cargo",
+                      "width": "30%"
+                    },
+                    "Fecha_inicio": {
+                      "title": "Fecha De",
+                      "width": "10%"
+                    },
+                    "Fecha_fin": {
+                      "title": "Fecha A",
+                      "width": "10%"
+                    }
+                  },
+                  "values": [],
+                  "score": {
+                    "type": "select",
+                    "values": [
+                      0,
+                      0.5
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
