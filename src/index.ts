@@ -7,13 +7,9 @@ const SPACE_BETWEEN_TITLES = 7.5;
 
 const doc = new jsPDF('l')
 doc.setFontSize(12);
-// doc.text("Tabla de Prestamo", 10, Y_CURRENT, );
-// doc.text("Tabla de Prestamo", 10, Y_CURRENT + SPACE_BETWEEN_TITLES, );
 
 for (let head of ficha.data) {
-    doc.text(`${head.heading} Máximo puntaje: ${head.max_score}`, 10, Y_CURRENT);
-    Y_CURRENT += SPACE_BETWEEN_TITLES;
-    doc.text(`Puntaje alcanzado: ${head.score}`, 10, Y_CURRENT );
+    doc.text(`${head.heading} -- Máximo puntaje: ${head.max_score} -- Puntaje alcanzado: ${head.score}`, 10, Y_CURRENT);
     Y_CURRENT += SPACE_BETWEEN_TITLES;
 
     for (let subHead of head.subheads) {
@@ -32,31 +28,32 @@ for (let head of ficha.data) {
                 let values = documentItem.values.map(el => {
                     let newRow = [];
 
-                    console.log(`el : \n ${JSON.stringify(el, null, 4)}`);
-
                     // @ts-ignore
                     columns_names.map(column_name => {
-                        console.log(`column name: ${column_name}`);
                         // @ts-ignore
                         newRow.push( el.description[column_name]);
                     });
                     newRow.push(el.score);
-                    console.log(`newRow : \n ${JSON.stringify(newRow, null, 4)}`);
                     return newRow;
                 })
 
-                console.log(columns_titles);
-                values.map(e => console.log(e))
+                if(values.length === 0){
+                    let empty_row_for_values: string[] = [];
+                    columns_names.map(column_name => {
+                        empty_row_for_values.push( "Sin datos" );
+                    });
+                    empty_row_for_values.push("Sin puntaje")
+
+                    values = [ empty_row_for_values ]
+                }
 
                 autoTable(doc, {
                     startY: Y_CURRENT,
                     head: [columns_titles],
-                    body: values,    // split overflowing columns into pages
-                    // repeat this column in split pages
+                    body: values,
                     pageBreak: 'auto'
                 })
 
-                //Y_CURRENT += (doc as any).lastAutoTable.finalY;
                 Y_CURRENT = (doc as any).lastAutoTable.finalY + 10;
             }
 
@@ -66,5 +63,6 @@ for (let head of ficha.data) {
     Y_CURRENT =  (doc as any).lastAutoTable.finalY + 10;
 }
 
+console.log(doc.output('arraybuffer'))
 
 doc.save()
